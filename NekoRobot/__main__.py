@@ -120,7 +120,7 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
+────「 [{}](https://telegra.ph/file/0987e980f8951b832431d.jpg) 」────
 *Hola! {},*
 *Meow Meow, Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="Network 🌐", url="https://t.me/AeroBots_Tm"
         ),
     ],
     [
@@ -148,7 +148,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="📢 Updates", url="https://t.me/AeroBots_Tm"
         ),
     ],
 ]
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            url="https://t.me/AeroBots_Tm",
                         ),
                     ]
                 ]
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://t.me/AeroBots_Tm",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
