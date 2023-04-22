@@ -34,9 +34,9 @@ PHOTO = "https://telegra.ph/file/70061cba45ee824dad6f6.jpg"
 @register(pattern=("/repo"))
 async def awake(event):
     NEKO = """
-         We Are So Happy To Announce That We Have Private Our Spotify ProBot Repo. ✨🥀
+         We Are So Happy To Announce That We Have Private Our Neko ProBot Repo. ✨🥀
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-「@SpotifyxProBot」
+「@NekoXProRobot」
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 Here is the Repo Deploy your Own Spotify Robot.
 ⚜️Repo ➤ https://t.me/AeroBots_Tm
