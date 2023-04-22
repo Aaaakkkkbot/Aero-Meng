@@ -256,11 +256,11 @@ def new_member(update: Update, context: CallbackContext):
                             [
                                 InlineKeyboardButton(
                                     text="Support🚑",
-                                    url=f"https://t.me/Besties_XD",
+                                    url="https://t.me/AeroBots_Group",
                                 ),
                                 InlineKeyboardButton(
                                     text="Updates🛰️",
-                                    url="https://t.me/Programmer_Updates",
+                                    url="https://t.me/AeroBots_Tm",
                                 ),
                             ]
                         ]
