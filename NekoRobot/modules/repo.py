@@ -34,23 +34,23 @@ PHOTO = "https://telegra.ph/file/70061cba45ee824dad6f6.jpg"
 @register(pattern=("/repo"))
 async def awake(event):
     NEKO = """
-         We Are So Happy To Announce That We Have Public Our NekoRobot Repo. ✨🥀
+         We Are So Happy To Announce That We Have Private Our Spotify ProBot Repo. ✨🥀
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-「@NekoCuteBot」
+「@SpotifyxProBot」
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-Here is the Repo Deploy your Own NekoRobot.
-⚜️Repo ➤ https://github.com/Awesome-Prince/NekoRobot-3.git
+Here is the Repo Deploy your Own Spotify Robot.
+⚜️Repo ➤ https://t.me/AeroBots_Tm
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 🔰 Thanks for your support 
-It's Fully stable Repo so you can deploy and make own Bot.
+I am Working new Public repo .
 ──────────────────
-Powered By:- @Besties_XD
+Powered By:- @Aerobots_tm
 """
 
     BUTTON = [
         [
-            Button.url("📢 Repository", "https://github.com/Awesome-Prince/NekoRobot-3"),
-            Button.url("💻 Collaborators", "https://telegra.ph/Neko-X-05-23"),
+            Button.url("📢 Support", "https://t.me/AeroBots_Group"),
+            Button.url("💻 Update", "https://t.me/AeroBots_Group"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
